@@ -1,0 +1,22 @@
+.my-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-about h1 {
+  padding: 0px 30px;
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.my-about h1:hover {
+  background:linear-gradient(270deg, #667db6 10%, #0082c8 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.8s;
+}

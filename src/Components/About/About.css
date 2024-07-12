@@ -2,6 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  margin: 120px 170px; 
 }
 
 .my-about h1 {
@@ -11,6 +13,7 @@
   color: white;
   transition: 0.3s;
   cursor: pointer;
+  margin-bottom: 4rem;
 }
 
 .my-about h1:hover {
@@ -20,3 +23,29 @@
   -webkit-text-fill-color: transparent;
   transition: 0.8s;
 }
+
+.about-sections {
+  display: flex;
+}
+
+.about-right .about-experience {
+  display: flex;
+  gap: 14px;
+  margin-top: 1rem;
+}
+
+.my-about .about-left img {
+  width: 14rem;
+  height: 20rem;
+  z-index: -1;
+}
+
+.about-right p {
+  padding-left: 3rem;
+}
+
+.about-experience .years-projects {
+  background-color: #0082c8;
+  margin-left: 3rem;
+}
+

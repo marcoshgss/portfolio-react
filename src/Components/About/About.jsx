@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import img_about from "../../assets/imagens/Imagem-2.jpg";
+import img_about from "../../assets/imagens/Imagem-9.jpg";
 
 class About extends React.Component {
   render() {
@@ -25,18 +25,32 @@ class About extends React.Component {
               Também sou estudante de Sistemas de Informação pela Universidade
               Federal Rural do Semi-Árido.
             </p>
+            <p>
+              <br /> Tenho disposição e disciplina, sou proativo e colaborativo,
+              sei me comunicar bem, e busco me aprimorar cada vez mais.
+            </p>
             <div className="about-experience">
-              <div className="years-projects">
-                <p className="p">
-                  11<span className="span">+</span>
-                </p>  
-                <span className="span-one">Projetos</span>
+              <div className="years-projects-1">
+                <div className="amount-projects">
+                  <p>11</p>
+                  <div>
+                    <p className="edition">+</p>
+                  </div>
+                </div>
+                <div className="name-project">
+                  <p className="edition">Projetos</p>
+                </div>
               </div>
-              <div className="years-projects">
-                <p className="p">
-                  1,5<span className="span">+</span>
-                </p>
-                <span className="span-one">Anos de experiência</span>
+              <div className="years-projects-2">
+                <div className="amount-projects">
+                  <p>1</p>
+                  <div>
+                    <p className="edition">+</p>
+                  </div>
+                </div>
+                <div className="name-project">
+                  <p className="edition">Anos de experiência</p>
+                </div>
               </div>
             </div>
           </div>

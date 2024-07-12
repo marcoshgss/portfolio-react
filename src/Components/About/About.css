@@ -25,7 +25,7 @@
 }
 
 .about-sections {
-  display: flex;
+  display: flex; 
 }
 
 .about-right .about-experience {
@@ -36,16 +36,82 @@
 
 .my-about .about-left img {
   width: 14rem;
-  height: 20rem;
-  z-index: -1;
+  height: 25rem;
+  border-radius: 10px;
+  box-shadow: 4px 0px 4px 1px #232323; 
 }
 
 .about-right p {
   padding-left: 3rem;
+  font-size: 16px;
+  font-weight: 500;
 }
 
-.about-experience .years-projects {
-  background-color: #0082c8;
+.about-experience .years-projects-1 {
+  background-color: #202225;  
+  padding: 1rem 1rem;
   margin-left: 3rem;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px 4px #232323; 
 }
 
+.about-experience .years-projects-1 .amount-projects p {
+  margin-left: -50px;
+  font-size: 22px;
+  gap: 20px;
+  font-weight: 500;
+}
+
+.about-experience .years-projects-1 .amount-projects {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.about-experience .years-projects-1 .amount-projects .edition {
+  color: #0082c8;
+} 
+
+.about-experience .years-projects-1 .name-project .edition {
+  color: #0082c8;
+}
+
+.about-experience .years-projects-1 .name-project  p {
+  font-size: 17px;
+  margin-left: -50px;
+}
+
+
+.about-experience .years-projects-2 {
+  background-color: #202225;
+  padding: 1rem 1rem;
+  margin: 0 1.2rem;
+  margin-top: 1.5rem;
+  border-radius: 8px; 
+  box-shadow: 0px 2px 6px 4px #232323; 
+}
+
+.about-experience .years-projects-2 .amount-projects p {
+  margin-left: -50px;
+  font-size: 22px;
+  gap: 20px;
+  font-weight: 500;
+}
+
+.about-experience .years-projects-2 .amount-projects {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.about-experience .years-projects-2 .name-project  p{
+  font-size: 17px;
+  margin-left: -50px;
+}
+
+.about-experience .years-projects-2 .amount-projects .edition {
+  color: #0082c8;
+} 
+
+.about-experience .years-projects-2 .name-project .edition {
+  color: #0082c8;
+}

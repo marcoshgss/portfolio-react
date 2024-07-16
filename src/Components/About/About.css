@@ -35,15 +35,16 @@
 }
 
 .my-about .about-left img {
-  width: 14rem;
-  height: 25rem;
+  width: 17rem;
+  height: 23rem;
   border-radius: 10px;
   box-shadow: 4px 0px 4px 1px #232323; 
 }
 
 .about-right p {
   padding-left: 3rem;
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size:  clamp(1em, 1em + 1vw, 16px);
   font-weight: 500;
 }
 

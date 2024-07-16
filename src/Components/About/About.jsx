@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import img_about from "../../assets/imagens/Imagem-9.jpg";
+import img_about from "../../assets/imagens/Imagem-15.jpg";
 
 class About extends React.Component {
   render() {
@@ -15,8 +15,7 @@ class About extends React.Component {
             <p>
               Sou desenvolvedor front-end dedicado a transformar ideias
               criativas em websites funcionais e visualmente atraentes. Tenho
-              ampla experiência com tecnologias como HTML, CSS, JavaScript e
-              frameworks como React, e meu compromisso é sempre entregar
+              ampla experiência com tecnologias como HTML, CSS, JavaScript e  frameworks como React, e meu compromisso é sempre entregar
               projetos de alta qualidade. Valorizo a escrita de código limpo e a
               busca constante por aprimoramento em cada detalhe do meu trabalho.
             </p>

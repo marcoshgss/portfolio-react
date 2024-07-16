@@ -7,6 +7,7 @@ class Navbar extends React.Component {
       <div className="navbar">
         <h1>MH.</h1>
           <ul className="nav-menu">
+            <li>Sobre mim</li>
             <li>Projetos</li>
             <li>Skills</li>
             {/* <li>Sobre</li> esse sobre vai ficar na parte da apresentação */}

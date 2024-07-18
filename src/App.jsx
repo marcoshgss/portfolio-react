@@ -5,6 +5,7 @@ import MyProjects from "./Components/MyProjects/MyProjects";
 import Scroll from "./Components/Scroll/Scroll";
 import About from "./Components/About/About";
 import Experience from "./Components/Experience/Experience";
+import Contact from "./Components/Contact/Contact";
 
 class App extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class App extends React.Component {
         <MyProjects/>
         <Scroll />
         <Experience/>
+        <Contact/>
       </div>
     );
   }

@@ -1,0 +1,124 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  margin: 80px 170px;
+  margin-top: 7rem;
+}
+
+.contact h1 {
+  padding: 0px 30px;
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.contact h1:hover {
+  background:linear-gradient(270deg, #667db6 10%, #0082c8 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.8s;
+}
+
+.contact-section  {
+  display: flex;
+  gap: 1rem;
+  
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  margin-right: 4rem;
+}
+
+.contact-left h1 {
+  font-size: 2.3rem;
+  margin-left: -2rem;
+  font-weight: 700;
+  background: linear-gradient(270deg, #667db6 10%, #0082c8 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-left p {
+  max-width: 450px;
+  color: white;
+  font-size:  clamp(1em, 1em + 1vw, 15px);
+  line-height: 30px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+  font-size: 15px;
+}
+
+.contact-detail {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.contact-right label {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contact-right input {
+  border: none;
+  width: 500px;
+  height: 58px;
+  padding-left: 20px;
+  background: #202225;
+  font-family: 'Roboto';
+  font-size: 17px;
+  border-radius: 4px;
+}
+
+.contact-right textarea {
+  width: 500px;
+  border: none;
+  padding: 20px;
+  border-radius: 4px;
+  background: #202225;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.contact-submit {
+  padding: 20px 45px; 
+  border-radius: 50px;
+  background: linear-gradient(260deg, #667db6 -5.09%, #0082c8 100%);
+  cursor: pointer;
+  font-size: 15px;
+  color: white;
+  border: none; 
+  margin-bottom: 70px;
+  transition: 0.3s;
+}
+
+.contact-submit:hover {
+  background: linear-gradient(260deg, #00B4DB -5.09%, #0083B0 100%);
+  border: 0px solid ;
+  box-shadow: 0 4px 7px #6fbeff80; 
+}

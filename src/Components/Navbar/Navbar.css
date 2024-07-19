@@ -6,14 +6,17 @@
 }
 
 .navbar h1 {
-  color: #00B4DB;
+  color: #0082c8;
+  cursor: pointer;
 }
+
+
 
 .nav-menu {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 16px;
+  gap: 17px;
   font-size: 15px;
 }
 
@@ -28,4 +31,15 @@
 
 .nav-connect:hover {
   transform: scale(1.05);
+}
+
+.navbar ul li {
+  color: white;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.navbar ul li:hover {
+  border-bottom: 3px solid #0082c8;
 }

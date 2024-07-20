@@ -13,7 +13,7 @@ import img_calc_imc from "../../assets/imagens/Calc-IMC.png"
 class MyProjects extends React.Component {
   render() {
     return (
-      <div className="my-projects">
+      <div id="project" className="my-projects">
         <h1>Meus Projetos</h1>
         <div className="my-container">
           <div className="my-projects-title">

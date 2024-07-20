@@ -5,7 +5,7 @@ import img_about from "../../assets/imagens/Imagem-15.jpg";
 class About extends React.Component {
   render() {
     return (
-      <div className="my-about">
+      <div id="about" className="my-about">
         <h1>Sobre Mim</h1>
         <div className="about-sections">
           <div className="about-left">

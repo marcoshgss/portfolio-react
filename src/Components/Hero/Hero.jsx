@@ -5,7 +5,7 @@ import perfil_img from "../../assets/imagens/_img3.jpg";
 class Hero extends React.Component {
   render() {
     return (
-      <div className="hero">
+      <div id="home" className="hero">
         <img src={perfil_img} alt="imagem-perfil" />
         <h1>
           Oi, meu nome é <span> Marcos Henrique.</span>

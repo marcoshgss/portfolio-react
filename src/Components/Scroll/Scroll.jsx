@@ -17,7 +17,7 @@ import img13 from "../../assets/imagens/img-tech/wordpress.png";
 class Scroll extends React.Component {
   render() {
     return (
-      <div className="my-scroll">
+      <div id="scroll" className="my-scroll">
         <h1>Skills</h1>
         <div className="slide-track">
           <div className="slide">

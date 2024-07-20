@@ -5,9 +5,9 @@ import { Link } from "react-scroll";
 class Navbar extends React.Component {
   // const [menu,setMenu] = useState("home");
 
-  const menuRef = useRef();
+  const menuRef = useRef();;
   const openMenu = () => {
-    
+
   }
 
   render() {

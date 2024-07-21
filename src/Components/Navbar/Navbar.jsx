@@ -1,20 +1,39 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
+import menu_open from "../../assets/imagens/icon/menu-open.png";
+import menu_close from "../../assets/imagens/icon/menu-close.png";
 
 class Navbar extends React.Component {
-  // const [menu,setMenu] = useState("home");
-
-  const menuRef = useRef();;
-  const openMenu = () => {
-
+  constructor(props) {
+    super(props);
+    this.menuRef = React.createRef(); // Cria a referência para o menu
   }
+
+  openMenu = () => {
+    this.menuRef.current.style.right = "0";
+  };
+  closeMenu = () => {
+    this.menuRef.current.style.right = "-350px";
+  };
 
   render() {
     return (
       <div className="navbar">
         <h1>MH.</h1>
-        <ul className="nav-menu">
+        <img
+          src={menu_open}
+          onClick={this.openMenu}
+          className="nav-mob-open"
+          alt=""
+        />
+        <ul ref={this.menuRef} className="nav-menu">
+          <img
+            src={menu_close}
+            onClick={this.closeMenu}
+            className="nav-mob-close"
+            alt=""
+          />
           <li>
             <Link to="about" smooth={true} duration={500}>
               Sobre mim

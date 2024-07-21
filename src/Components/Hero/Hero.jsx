@@ -18,8 +18,10 @@ class Hero extends React.Component {
         </p>
 
         <div className="hero-action">
-          <div className="hero-connect">Conecte-se comigo</div>
-          <div className="hero-cv">Baixar CV</div>
+          <div className="hero-connect">
+            <a href="https://icons8.com.br/icons/set/menu">Conecte-se comigo</a>
+          </div>
+          <div className="hero-cv"><a href="">Baixar CV</a></div>
         </div>
       </div>
     );

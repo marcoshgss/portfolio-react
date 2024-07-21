@@ -6,9 +6,9 @@ class Footer extends React.Component {
     return (
       <footer className="footer"> 
         <div className="social-icons"> 
-            <a href="#"><i className='bx bxl-linkedin'></i></a>
-            <a href="#"><i className='bx bxl-github'></i></a>
-            <a href="#"><i className='bx bxl-instagram-alt' ></i></a>
+            <a href="https://www.linkedin.com/in/marcos-henrique-gomess/"><i className='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/marcoshgss"><i className='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/marcoshgss/"><i className='bx bxl-instagram-alt' ></i></a>
         </div>
 
         <ul className="list">

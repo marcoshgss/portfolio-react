@@ -116,3 +116,27 @@
 .about-experience .years-projects-2 .name-project .edition {
   color: #0082c8;
 }
+
+@media(max-width:768px) {
+  .my-about {
+    margin: 50px 70px;
+    align-items: start;
+  }
+  .my-about h1 {
+    font-size: 50px;
+    padding: 0px 10rem;
+  }
+  .about-sections {
+    flex-direction: column;
+  }
+  .about-left {
+    display: none;
+  }
+  .about-right p {
+    padding: 0;
+    font-size:  clamp(1em, 1em + 1vw, 15px);
+  }
+  .about-experience {
+
+  }
+}

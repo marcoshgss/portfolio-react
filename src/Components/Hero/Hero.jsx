@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import perfil_img from "../../assets/imagens/_img3.jpg";
+import cv_mh from "../../assets/imagens/icon/CV-Marcos-Henrique-Gomes (1).pdf"
 
 class Hero extends React.Component {
   render() {
@@ -19,9 +20,9 @@ class Hero extends React.Component {
 
         <div className="hero-action">
           <div className="hero-connect">
-            <a href="https://icons8.com.br/icons/set/menu">Conecte-se comigo</a>
+            <a href="https://www.linkedin.com/in/marcos-henrique-gomess/">Conecte-se comigo</a>
           </div>
-          <div className="hero-cv"><a href="">Baixar CV</a></div>
+          <div className="hero-cv"><a href={cv_mh} download="CV-Marcos-Henrique">Baixar CV</a></div>
         </div>
       </div>
     );

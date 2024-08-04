@@ -103,7 +103,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media(max-width: 480px) {
   .navbar {
     margin: 20px 30px;
   }

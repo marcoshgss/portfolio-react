@@ -131,13 +131,13 @@
   }
   .hero p {
     width: auto;
-    font-size: 19px;
+    font-size: 13px;
     line-height: 32px;
     margin: 10px 0px;
   }
   .hero-action {
     gap: 0.8rem;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     margin-bottom: 80px;
   }

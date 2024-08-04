@@ -69,3 +69,19 @@
   transition: 0.8s;
 }
 
+@media (max-width: 480px) {
+  .my-scroll {
+    margin: 20px 30px;
+  }
+
+  .my-scroll h1 {
+    font-size: 30px;
+    margin: 0px auto;
+    padding: 3rem;
+    font-weight: 600;
+  }
+
+  .my-scroll .slide-track {
+    margin: 2rem;
+  }
+}

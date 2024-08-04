@@ -200,4 +200,13 @@
   .contact-left {
       margin-top: -4rem;
     }
+
+  .contact-right input {
+      width: 98%;
+      font-size: 15px;
+    }
+    
+  .contact-right textarea {
+      width: 98%;
+    }
 }

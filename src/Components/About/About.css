@@ -136,9 +136,6 @@
     padding: 0;
     font-size:  clamp(1em, 1em + 1vw, 15px);
   }
-  .about-experience {
-
-  }
 }
 
 @media (max-width:480px) {
@@ -165,5 +162,35 @@
   .about-right p {
     padding: 0;
     font-size:  clamp(1em, 1em + 1vw, 16px);
+  }
+
+  .about-right .about-experience {
+    margin-left: -2.8rem;
+  }
+
+  .about-experience .years-projects-1 {
+    padding: 1rem 2rem;
+  }
+
+  .about-experience .years-projects-1 .amount-projects p {
+    margin-right: 22px;
+    margin-left: -20px;
+  }
+
+  .about-experience .years-projects-1 .name-project .edition  {
+    margin-left: -1.2rem;
+  }
+
+  .about-experience .years-projects-2 {
+    padding: 1rem 2rem;
+  }
+
+  .about-experience .years-projects-2 .amount-projects p {
+    margin-right: 21px;
+    margin-left: -19px;
+  }
+
+  .about-experience .years-projects-2 .name-project .edition  {
+    margin-left: -1.2rem;
   }
 }

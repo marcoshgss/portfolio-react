@@ -31,7 +31,7 @@ class About extends React.Component {
             <div className="about-experience">
               <div className="years-projects-1">
                 <div className="amount-projects">
-                  <p>11</p>
+                  <p> 11</p>
                   <div>
                     <p className="edition">+</p>
                   </div>

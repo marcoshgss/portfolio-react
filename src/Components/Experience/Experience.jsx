@@ -48,6 +48,18 @@ class Experience extends React.Component {
 
           <div className="timeline-item">
             <div className="timeline-dot"></div>
+            <div className="timeline-date">2024-2025</div>
+            <div className="timeline-content">
+              <h3>Estágio em Back-end</h3>
+              <p>
+              Concluí o estágio em Back-end, pela empresa Compass UOL onde desempenhei as seguintes atividades: Desenvolvi aplicações usando JavaScript, TypeScript, Node.js, Express, MongoDB, Mongoose, Scrum, AWS, AWS Security, Well Architected.
+            
+              </p>
+            </div>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
             <div className="timeline-date">2025</div>
             <div className="timeline-content">
               <h3>Universidade</h3>

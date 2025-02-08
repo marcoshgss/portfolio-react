@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import perfil_img from "../../assets/imagens/_img3.jpg";
+import perfil_img from "../../assets/imagens/img33.webp";
 import cv_mh from "../../assets/imagens/icon/CV-Marcos-Henrique-Gomes-.pdf"
 
 class Hero extends React.Component {

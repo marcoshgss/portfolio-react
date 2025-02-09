@@ -10,6 +10,7 @@ class Contact extends React.Component {
     this.state = {
       formStatus: null,
     };
+    this.formRef = React.createRef();
   }
 
   onSubmit = async (event) => {
@@ -33,6 +34,8 @@ class Contact extends React.Component {
     if (res.success) {
       this.setState({ formStatus: "Success" });
       alert("Mensagem enviada com sucesso!", res);
+      this.formRef.current.reset()
+
     } else {
       this.setState({ formStatus: "Error" });
     }
@@ -65,7 +68,7 @@ class Contact extends React.Component {
               </div>
             </div>
           </div>
-          <form onSubmit={this.onSubmit} className="contact-right">
+          <form ref={this.formRef} onSubmit={this.onSubmit} className="contact-right">
             <label htmlFor="">Seu Nome</label>
             <input type="text" placeholder="Digite seu nome" name="name" required />
             <label htmlFor="">Seu Email</label>

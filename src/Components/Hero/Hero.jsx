@@ -10,12 +10,10 @@ class Hero extends React.Component {
         <img src={perfil_img} alt="imagem-perfil" />
         <h1>
           Oi, meu nome é <span> Marcos Henrique.</span>
-          <br /> Sou Desenvolvedor Front end.
+          <br /> Sou Desenvolvedor Full Stack.
         </h1>
         <p>
-          Apaixonado por tecnologia, e especializado em desenvolvimento
-          front-end. <br />
-          Tenho experiência em projetos de aplicações web e muito mais.{" "}
+        Apaixonado por tecnologia, com experiência em desenvolvimento full stack. Já trabalhei em aplicações web, do front-end ao back-end, criando soluções eficientes e escaláveis.{" "}
         </p>
 
         <div className="hero-action">

@@ -17,22 +17,22 @@ class MyProjects extends React.Component {
         <h1>Meus Projetos</h1>
         <div className="my-container">
           <div className="my-projects-title">
-            <img src={lp_dark} alt="" />
+            <a href="https://landing-page-theme-dark.netlify.app/"><img src={lp_dark} alt="Landing Page Dark - Serviço em nuvem" /></a>
           </div>
           <div className="my-projects-title">
-            <img src={lp_contato} alt="" />
+            <a href="https://majestic-moxie-a43f7f.netlify.app/"><img src={lp_contato} alt="Landing Page de Contato" /></a>
           </div>
           <div className="my-projects-title">
-            <img src={pagina_venda_apple} alt="" />
+            <a href="https://clone-pagina-apple-venda.netlify.app/"><img src={pagina_venda_apple} alt="Página de venda da Apple" /></a>
           </div>
           <div className="my-projects-title">
-            <img src={img_todolist} alt="" />
+            <a href="https://to-list-advanced.netlify.app/assets/html/login.html"><img src={img_todolist} alt="Todo-list" /></a>
           </div>
           <div className="my-projects-title">
-            <img src={img_dev_notes} alt="" />
+            <a href="https://dev-notes-pro.netlify.app/"><img src={img_dev_notes} alt="Dev notes - Clone do Google Keep" /></a>
           </div>
           <div className="my-projects-title">
-            <img src={img_movie_verse} alt="" />
+            <a href="https://movieverse-project.netlify.app/"><img src={img_movie_verse} alt="Movie Verse - Catálogo de filmes e animes" /></a>
           </div>
           <div className="my-projects-title">
             <img src={img_gerador_senha} alt="" />
@@ -41,7 +41,7 @@ class MyProjects extends React.Component {
             <img src={img_previsao_tempo} alt="" />
           </div>
           <div className="my-projects-title">
-            <img src={img_calc_imc} alt="" />
+            <a href="/"><img src={img_calc_imc} alt="" /></a>
           </div>
         </div>
       </div>

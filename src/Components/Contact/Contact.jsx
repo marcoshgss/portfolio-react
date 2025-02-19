@@ -61,7 +61,7 @@ class Contact extends React.Component {
               </div>
               <div className="contact-detail">
                 <img src={icon2} alt="Linkedin" />{" "}
-                <p>linkedin.com/in/marcos-henrique-gomess/</p>
+                <p>linkedin.com/in/marcoshenriquegomess/</p>
               </div>
               <div className="contact-detail">
                 <img src={icon3} alt="Localização" /> <p>Rio Grande do Norte</p>

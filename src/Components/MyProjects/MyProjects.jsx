@@ -6,9 +6,10 @@ import pagina_venda_apple from "../../assets/imagens/Pagina-de-venda-apple-2.png
 import img_todolist from  "../../assets/imagens/todolist2.png"
 import img_dev_notes from "../../assets/imagens/devnotes4.png"
 import img_movie_verse from "../../assets/imagens/MovieVerse2.png"
-import img_gerador_senha from "../../assets/imagens/Gerador-senha2.png"
+// import img_gerador_senha from "../../assets/imagens/Gerador-senha2.png"
 import img_previsao_tempo from "../../assets/imagens/Previsao-tempo-2.png"
 import img_calc_imc from "../../assets/imagens/Calc-IMC.png"
+import img_clone_spotify from "../../assets/imagens/clone-spotify.png"
 
 class MyProjects extends React.Component {
   render() {
@@ -20,7 +21,7 @@ class MyProjects extends React.Component {
             <a href="https://landing-page-theme-dark.netlify.app/"><img src={lp_dark} alt="Landing Page Dark - Serviço em nuvem" /></a>
           </div>
           <div className="my-projects-title">
-            <a href="https://majestic-moxie-a43f7f.netlify.app/"><img src={lp_contato} alt="Landing Page de Contato" /></a>
+           <a href="https://projeto-clone-spotify-18b0.onrender.com/"><img src={img_clone_spotify} alt="Clone do Spotify" /></a> 
           </div>
           <div className="my-projects-title">
             <a href="https://clone-pagina-apple-venda.netlify.app/"><img src={pagina_venda_apple} alt="Página de venda da Apple" /></a>
@@ -35,13 +36,13 @@ class MyProjects extends React.Component {
             <a href="https://movieverse-project.netlify.app/"><img src={img_movie_verse} alt="Movie Verse - Catálogo de filmes e animes" /></a>
           </div>
           <div className="my-projects-title">
-            <img src={img_gerador_senha} alt="" />
+            <a href="https://majestic-moxie-a43f7f.netlify.app/"><img src={lp_contato} alt="Landing Page de Contato" /></a>
           </div>
           <div className="my-projects-title">
-            <img src={img_previsao_tempo} alt="" />
+            <a href="https://weather-forecast-br.netlify.app/"><img src={img_previsao_tempo} alt="" /></a>
           </div>
           <div className="my-projects-title">
-            <a href="/"><img src={img_calc_imc} alt="" /></a>
+            <a href="https://calc-imc-project-ql.netlify.app/"><img src={img_calc_imc} alt="Calculadora IMC" /></a>
           </div>
         </div>
       </div>

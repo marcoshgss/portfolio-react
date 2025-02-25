@@ -12,14 +12,14 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Navbar/>
-        <Hero/>
-        <About/>
-        <MyProjects/>
-        <Scroll/>
-        <Experience/>
-        <Contact/>
-        <Footer/>
+        <Navbar />
+        <Hero />
+        <About />
+        <MyProjects />
+        <Scroll />
+        <Experience />
+        <Contact />
+        <Footer />
       </div>
     );
   }

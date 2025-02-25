@@ -13,7 +13,12 @@ class About extends React.Component {
           </div>
           <div className="about-right">
             <p>
-            Sou desenvolvedor full stack dedicado a transformar ideias em aplicações web funcionais e eficientes. Tenho experiência com tecnologias como HTML, CSS, JavaScript, React no front-end e Node.js, TypeScript e bancos de dados no back-end. Meu compromisso é entregar soluções de alta qualidade, valorizando código limpo e a constante evolução técnica.
+              Sou desenvolvedor full stack dedicado a transformar ideias em
+              aplicações web funcionais e eficientes. Tenho experiência com
+              tecnologias como HTML, CSS, JavaScript, React no front-end e
+              Node.js, TypeScript e bancos de dados no back-end. Meu compromisso
+              é entregar soluções de alta qualidade, valorizando código limpo e
+              a constante evolução técnica.
             </p>
             <p>
               <br />

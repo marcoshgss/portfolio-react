@@ -34,8 +34,7 @@ class Contact extends React.Component {
     if (res.success) {
       this.setState({ formStatus: "Success" });
       alert("Mensagem enviada com sucesso!", res);
-      this.formRef.current.reset()
-
+      this.formRef.current.reset();
     } else {
       this.setState({ formStatus: "Error" });
     }
@@ -68,11 +67,25 @@ class Contact extends React.Component {
               </div>
             </div>
           </div>
-          <form ref={this.formRef} onSubmit={this.onSubmit} className="contact-right">
+          <form
+            ref={this.formRef}
+            onSubmit={this.onSubmit}
+            className="contact-right"
+          >
             <label htmlFor="">Seu Nome</label>
-            <input type="text" placeholder="Digite seu nome" name="name" required />
+            <input
+              type="text"
+              placeholder="Digite seu nome"
+              name="name"
+              required
+            />
             <label htmlFor="">Seu Email</label>
-            <input type="email" placeholder="Digite seu email" name="email" required />
+            <input
+              type="email"
+              placeholder="Digite seu email"
+              name="email"
+              required
+            />
             <label htmlFor="">Escreva sua mensagem aqui</label>
             <textarea
               name="message"

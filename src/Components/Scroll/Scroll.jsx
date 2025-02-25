@@ -16,7 +16,6 @@ import img13 from "../../assets/imagens/img-tech/icons8-expresso-js-100.png";
 import img14 from "../../assets/imagens/img-tech/icons8-mongo-db-100.png";
 import img15 from "../../assets/imagens/img-tech/icons8-aws-100.png";
 
-
 class Scroll extends React.Component {
   render() {
     return (
@@ -68,7 +67,6 @@ class Scroll extends React.Component {
           <div className="slide">
             <img src={img15} alt="" />
           </div>
-
 
           <div className="slide">
             <img src={img1} alt="" />

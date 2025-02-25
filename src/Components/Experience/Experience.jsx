@@ -1,8 +1,6 @@
 import React from "react";
 import "./Experience.css";
 
-
-
 class Experience extends React.Component {
   render() {
     return (
@@ -39,9 +37,9 @@ class Experience extends React.Component {
             <div className="timeline-content">
               <h3>Estágio em TI</h3>
               <p>
-              Concluí o estágio em TI, onde desempenhei as seguintes atividades: Suporte técnico aos usuários,
-              suporte a problemas em componentes da rede,
-              
+                Concluí o estágio em TI, onde desempenhei as seguintes
+                atividades: Suporte técnico aos usuários, suporte a problemas em
+                componentes da rede,
               </p>
             </div>
           </div>
@@ -52,8 +50,10 @@ class Experience extends React.Component {
             <div className="timeline-content">
               <h3>Estágio em Back-end</h3>
               <p>
-              Concluí o estágio em Back-end, pela empresa Compass UOL onde desempenhei as seguintes atividades: Desenvolvi aplicações usando JavaScript, TypeScript, Node.js, Express, MongoDB, Mongoose, Scrum, AWS, AWS Security, Well Architected.
-            
+                Concluí o estágio em Back-end, pela empresa Compass UOL onde
+                desempenhei as seguintes atividades: Desenvolvi aplicações
+                usando JavaScript, TypeScript, Node.js, Express, MongoDB,
+                Mongoose, Scrum, AWS, AWS Security, Well Architected.
               </p>
             </div>
           </div>
@@ -64,7 +64,8 @@ class Experience extends React.Component {
             <div className="timeline-content">
               <h3>Universidade</h3>
               <p>
-                Cursando Sistemas de Informação pela Universidade Federal Rural do Semi-Árido (UFERSA), previsão de término em 2025.
+                Cursando Sistemas de Informação pela Universidade Federal Rural
+                do Semi-Árido (UFERSA), previsão de término em 2025.
               </p>
             </div>
           </div>

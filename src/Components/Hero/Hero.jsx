@@ -13,7 +13,9 @@ class Hero extends React.Component {
           <br /> Sou Desenvolvedor Full Stack.
         </h1>
         <p>
-        Apaixonado por tecnologia, com experiência em desenvolvimento full stack. Já trabalhei em aplicações web, do front-end ao back-end, criando soluções eficientes e escaláveis.{" "}
+          Apaixonado por tecnologia, com experiência em desenvolvimento full
+          stack. Já trabalhei em aplicações web, do front-end ao back-end,
+          criando soluções eficientes e escaláveis.{" "}
         </p>
 
         <div className="hero-action">

@@ -69,6 +69,20 @@ class Experience extends React.Component {
               </p>
             </div>
           </div>
+
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-date">2025</div>
+            <div className="timeline-content">
+              <h3>Desenvolvedor Júnior</h3>
+              <p>
+                Atuo no desenvolvimento e manutenção de aplicações web, criando e evoluindo
+                funcionalidades com foco em performance e experiência do usuário. Tenho participação
+                ativa tanto no front-end quanto no back-end, contribuindo para entregas eficientes 
+                e código de qualidade. Utilizo tecnologias como React, Next.js, TypeScript, entre outras.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     );

@@ -64,8 +64,8 @@ class Experience extends React.Component {
             <div className="timeline-content">
               <h3>Universidade</h3>
               <p>
-                Cursando Sistemas de Informação pela Universidade Federal Rural
-                do Semi-Árido (UFERSA), previsão de término em 2025.
+                Bacharel em Sistemas de Informação pela Universidade Federal 
+                Rural do Semi-Árido (UFERSA), concluído em 2025.
               </p>
             </div>
           </div>
@@ -76,10 +76,22 @@ class Experience extends React.Component {
             <div className="timeline-content">
               <h3>Desenvolvedor Júnior</h3>
               <p>
-                Atuo no desenvolvimento e manutenção de aplicações web, criando e evoluindo
-                funcionalidades com foco em performance e experiência do usuário. Tenho participação
-                ativa tanto no front-end quanto no back-end, contribuindo para entregas eficientes 
-                e código de qualidade. Utilizo tecnologias como React, Next.js, TypeScript, entre outras.
+                Atuo como Desenvolvedor Júnior na LCC.hub, desenvolvendo e evoluindo 
+                aplicações web com foco em performance e experiência do usuário. Trabalho
+                no front-end e back-end, utilizando tecnologias como React, Next.js, 
+                TypeScript, entre outras.
+              </p>
+            </div>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-date">2026</div>
+            <div className="timeline-content">
+              <h3>Freelancer</h3>
+              <p>
+                Disponível para projetos freelance, desenvolvendo aplicações web 
+                modernas e eficientes, desde a ideia até a entrega.
               </p>
             </div>
           </div>

@@ -16,14 +16,13 @@ class About extends React.Component {
               Sou desenvolvedor full stack dedicado a transformar ideias em
               aplicações web funcionais e eficientes. Tenho experiência com
               tecnologias como HTML, CSS, JavaScript, React no front-end e
-              Node.js, TypeScript e bancos de dados no back-end. Meu compromisso
+              Node.js, TypeScript e bancos de dados no back-end. Também atuo como freelancer, desenvolvendo soluções sob demanda. Meu compromisso
               é entregar soluções de alta qualidade, valorizando código limpo e
               a constante evolução técnica.
             </p>
             <p>
               <br />
-              Também sou estudante de Sistemas de Informação pela Universidade
-              Federal Rural do Semi-Árido.
+              Sou formado em Sistemas de Informação pela Universidade Federal Rural do Semi-Árido.
             </p>
             <p>
               <br /> Tenho disposição e disciplina, sou proativo e colaborativo,

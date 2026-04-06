@@ -69,6 +69,23 @@
   transition: 0.8s;
 }
 
+@media(max-width:768px) {
+  .my-scroll {
+    margin: 50px 20px;
+  }
+
+  .my-scroll h1 {
+    font-size: 50px;
+    margin: 0px auto;
+    padding: 0px 30px;
+    font-weight: 600;
+  }
+
+  .my-scroll .slide-track {
+    margin: 0;
+  }
+}
+
 @media (max-width: 480px) {
   .my-scroll {
     margin: 20px 30px;

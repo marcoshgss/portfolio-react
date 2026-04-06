@@ -52,7 +52,7 @@
 
 @media(max-width:768px) {
   .navbar {
-    margin: 20px 50px;
+    margin: 20px;
   }
 
   .nav-mob-open {
@@ -85,7 +85,7 @@
 
   .nav-menu li {
     font-size: 25px;
-    padding-left: 100px;
+    padding-left: 20px;
     flex-direction: row;
     line-height: 1.6;
     gap: 20px;
@@ -97,7 +97,13 @@
     /* transition: 0.3s ease-in-out; */
     cursor: pointer;
   }
-  
+}
+
+@media(max-width:480px) {
+  .navbar {
+    margin: 15px 10px;
+  }
+}
   .navbar ul li:hover {
     /* border-bottom: 3px solid #2c6e92; */
   }

@@ -119,7 +119,7 @@
 
 @media(max-width:768px) {
   .my-about {
-    margin: 50px 70px;
+    margin: 50px 20px;
     align-items: start;
   }
   .my-about h1 {
@@ -165,7 +165,7 @@
   }
 
   .about-right .about-experience {
-    margin-left: -2.8rem;
+    margin-left: 0;
   }
 
   .about-experience .years-projects-1 {
@@ -174,11 +174,11 @@
 
   .about-experience .years-projects-1 .amount-projects p {
     margin-right: 22px;
-    margin-left: -20px;
+    margin-left: 0;
   }
 
   .about-experience .years-projects-1 .name-project .edition  {
-    margin-left: -1.2rem;
+    margin-left: 0;
   }
 
   .about-experience .years-projects-2 {
@@ -187,10 +187,10 @@
 
   .about-experience .years-projects-2 .amount-projects p {
     margin-right: 21px;
-    margin-left: -19px;
+    margin-left: 0;
   }
 
   .about-experience .years-projects-2 .name-project .edition  {
-    margin-left: -1.2rem;
+    margin-left: 0;
   }
 }

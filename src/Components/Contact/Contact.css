@@ -91,6 +91,7 @@
   font-size: 17px;
   border-radius: 4px;
   color: white;
+  box-sizing: border-box;
 }
 
 .contact-right textarea {
@@ -103,6 +104,7 @@
   font-family: 'Roboto';
   font-size: 17px;
   margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
 .contact-submit {
@@ -125,7 +127,7 @@
 
 @media(max-width:768px) {
   .contact {
-    margin: 50px 70px;
+    margin: 50px 20px;
     align-items: start;
   }
   .contact h1 {
@@ -157,14 +159,18 @@
     margin-top: 2rem;
   }
   .contact-right label {
-    font-size: 20px;
+    font-size: 16px;
   }
   .contact-right input {
     width: 98%;
-    font-size: 15px;
+    font-size: 13px;
+    height: 42px;
+    padding-left: 12px;
   }
   .contact-right textarea {
     width: 98%;
+    font-size: 13px;
+    padding: 12px;
   }
 }
 
@@ -201,11 +207,15 @@
     }
 
   .contact-right input {
-      width: 96%;
-      font-size: 15px;
+      width: 85%;
+      font-size: 13px;
+      height: 42px;
+      padding-left: 12px;
     }
     
   .contact-right textarea {
-      width: 96%;
+      width: 85%;
+      font-size: 13px;
+      padding: 12px;
     }
 }

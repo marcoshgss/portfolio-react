@@ -1,6 +1,5 @@
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-scroll";
 import menu_open from "../../assets/imagens/icon/menu-open.png";
 import menu_close from "../../assets/imagens/icon/menu-close.png";
 
@@ -13,8 +12,18 @@ class Navbar extends React.Component {
   openMenu = () => {
     this.menuRef.current.style.right = "0";
   };
+
   closeMenu = () => {
     this.menuRef.current.style.right = "-350px";
+  };
+
+  handleNavClick = (event, targetId) => {
+    event.preventDefault();
+    const element = document.getElementById(targetId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+    this.closeMenu();
   };
 
   render() {
@@ -35,29 +44,29 @@ class Navbar extends React.Component {
             alt=""
           />
           <li>
-            <Link to="about" smooth={true} duration={500}>
+            <a href="#about" onClick={(e) => this.handleNavClick(e, "about")}>
               Sobre mim
-            </Link>
+            </a>
           </li>
           <li>
-            <Link to="project" smooth={true} duration={500}>
+            <a href="#project" onClick={(e) => this.handleNavClick(e, "project")}>
               Projetos
-            </Link>
+            </a>
           </li>
           <li>
-            <Link to="scroll" smooth={true} duration={500}>
+            <a href="#scroll" onClick={(e) => this.handleNavClick(e, "scroll")}>
               Skills
-            </Link>
+            </a>
           </li>
           <li>
-            <Link to="experience" smooth={true} duration={500}>
+            <a href="#experience" onClick={(e) => this.handleNavClick(e, "experience")}>
               Experiência
-            </Link>
+            </a>
           </li>
           <li>
-            <Link to="contact" smooth={true} duration={500}>
+            <a href="#contact" onClick={(e) => this.handleNavClick(e, "contact")}>
               Contato
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

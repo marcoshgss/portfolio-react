@@ -18,6 +18,11 @@
   font-size: 15px;
 }
 
+.nav-menu a {
+  color: inherit;
+  text-decoration: none;
+} 
+
 /* .nav-connect {
   padding: 20px 40px;
   border-radius: 50px;
@@ -101,22 +106,15 @@
 
 @media(max-width:480px) {
   .navbar {
-    margin: 15px 10px;
-  }
-}
-  .navbar ul li:hover {
-    /* border-bottom: 3px solid #2c6e92; */
-  }
-}
-
-@media(max-width: 480px) {
-  .navbar {
     margin: 20px 30px;
   }
 
   .nav-mob-open {
     display: block;
     position:absolute;
-    right: 32px; 
+    right: 32px;
   }
-}
+
+  /* .navbar ul li:hover {
+    /* border-bottom: 3px solid #2c6e92; */
+  } 

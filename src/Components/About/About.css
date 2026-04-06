@@ -7,17 +7,17 @@
 }
 
 .my-about h1 {
-  padding: 0px 30px;
   font-size: 50px;
   font-weight: 600;
   color: white;
   transition: 0.3s;
   cursor: pointer;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
+  text-align: center;
 }
 
 .my-about h1:hover {
-  background:linear-gradient(270deg, #667db6 10%, #0082c8 100%);
+  background: linear-gradient(270deg, #667db6 10%, #0082c8 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -25,88 +25,76 @@
 }
 
 .about-sections {
-  display: flex; 
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.about-right {
+  flex: 1;
+  max-width: 760px;
 }
 
 .about-right .about-experience {
   display: flex;
-  gap: 14px;
+  flex-wrap: nowrap;
+  gap: 1rem;
   margin-top: 1rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+}
+
+.about-experience .years-projects-1,
+.about-experience .years-projects-2 {
+  flex: 1 0 140px;
+  max-width: 220px;
+  background-color: #202225;
+  padding: 1rem 1.2rem;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px 4px #232323;
 }
 
 .my-about .about-left img {
-  width: 17rem;
-  height: 23rem;
+  width: 100%;
+  max-width: 360px;
+  height: auto;
   border-radius: 10px;
-  box-shadow: 4px 0px 4px 1px #232323; 
+  box-shadow: 4px 0px 4px 1px #232323;
 }
 
 .about-right p {
-  padding-left: 3rem;
-  /* font-size: 16px; */
-  font-size:  clamp(1em, 1em + 1vw, 16px);
+  margin-bottom: 1rem;
+  font-size: clamp(1em, 1em + 1vw, 16px);
   font-weight: 500;
+  line-height: 1.7;
 }
 
-.about-experience .years-projects-1 {
-  background-color: #202225;  
-  padding: 1rem 1rem;
-  margin-left: 3rem;
-  margin-top: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0px 2px 6px 4px #232323; 
-}
-
-.about-experience .years-projects-1 .amount-projects p {
-  margin-left: -50px;
-  font-size: 22px;
-  gap: 20px;
-  font-weight: 500;
-}
-
-.about-experience .years-projects-1 .amount-projects {
+.about-experience .amount-projects {
   display: flex;
-  gap: 0.2rem;
+  align-items: baseline;
+  gap: 0.4rem;
 }
 
-.about-experience .years-projects-1 .amount-projects .edition {
-  color: #0082c8;
-} 
+.about-experience .amount-projects p {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 500;
+}
 
-.about-experience .years-projects-1 .name-project .edition {
+.about-experience .amount-projects .edition {
   color: #0082c8;
 }
 
-.about-experience .years-projects-1 .name-project  p {
+.about-experience .name-project p {
+  margin: 0.4rem 0 0;
   font-size: 17px;
-  margin-left: -50px;
 }
 
-
-.about-experience .years-projects-2 {
-  background-color: #202225;
-  padding: 1rem 1rem;
-  margin: 0 1.2rem;
-  margin-top: 1.5rem;
-  border-radius: 8px; 
-  box-shadow: 0px 2px 6px 4px #232323; 
-}
-
-.about-experience .years-projects-2 .amount-projects p {
-  margin-left: -50px;
-  font-size: 22px;
-  gap: 20px;
-  font-weight: 500;
-}
-
-.about-experience .years-projects-2 .amount-projects {
-  display: flex;
-  gap: 0.2rem;
-}
-
-.about-experience .years-projects-2 .name-project  p{
-  font-size: 17px;
-  margin-left: -50px;
+.about-experience .name-project .edition {
+  color: #0082c8;
 }
 
 .about-experience .years-projects-2 .amount-projects .edition {
@@ -120,77 +108,68 @@
 @media(max-width:768px) {
   .my-about {
     margin: 50px 20px;
-    align-items: start;
+    align-items: center;
   }
   .my-about h1 {
-    font-size: 50px;
-    padding: 0px 10rem;
+    font-size: 42px;
+    padding: 0 1rem;
   }
   .about-sections {
     flex-direction: column;
+    align-items: center;
+    gap: 2rem;
   }
   .about-left {
-    display: none;
+    display: block;
+    width: 100%;
+    max-width: 360px;
+  }
+  .about-right {
+    width: 100%;
   }
   .about-right p {
     padding: 0;
-    font-size:  clamp(1em, 1em + 1vw, 15px);
+    font-size: clamp(1em, 1em + 1vw, 15px);
   }
 }
 
 @media (max-width:480px) {
   .my-about {
-    margin: 20px 30px;
-    align-items:center;
+    margin: 20px 20px;
+    align-items: center;
   }
 
-  .my-about  h1 {
-    font-size: 30px;
-    margin: 0px auto;
-    padding: 3rem;
+  .my-about h1 {
+    font-size: 32px;
+    margin: 0;
+    padding: 1rem 0;
     font-weight: 600;
   }
 
   .about-sections {
     flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
   }
 
   .about-left {
-    display: none;
+    display: block;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .about-right {
+    width: 100%;
   }
 
   .about-right p {
     padding: 0;
-    font-size:  clamp(1em, 1em + 1vw, 16px);
+    font-size: clamp(1em, 1em + 1vw, 14px);
   }
 
   .about-right .about-experience {
-    margin-left: 0;
-  }
-
-  .about-experience .years-projects-1 {
-    padding: 1rem 2rem;
-  }
-
-  .about-experience .years-projects-1 .amount-projects p {
-    margin-right: 22px;
-    margin-left: 0;
-  }
-
-  .about-experience .years-projects-1 .name-project .edition  {
-    margin-left: 0;
-  }
-
-  .about-experience .years-projects-2 {
-    padding: 1rem 2rem;
-  }
-
-  .about-experience .years-projects-2 .amount-projects p {
-    margin-right: 21px;
-    margin-left: 0;
-  }
-
-  .about-experience .years-projects-2 .name-project .edition  {
-    margin-left: 0;
+    justify-content: center;
+    width: 100%;
+    overflow-x: auto;
   }
 }

@@ -9,29 +9,26 @@ class About extends React.Component {
         <h1>Sobre Mim</h1>
         <div className="about-sections">
           <div className="about-left">
-            <img src={img_about} alt="" />
+            <img src={img_about} alt="Foto da seção sobre mim" />
           </div>
           <div className="about-right">
             <p>
-              Sou desenvolvedor full stack dedicado a transformar ideias em
-              aplicações web funcionais e eficientes. Tenho experiência com
-              tecnologias como HTML, CSS, JavaScript, React no front-end e
-              Node.js, TypeScript e bancos de dados no back-end. Também atuo como freelancer, desenvolvendo soluções sob demanda. Meu compromisso
-              é entregar soluções de alta qualidade, valorizando código limpo e
-              a constante evolução técnica.
+              Sou desenvolvedor full stack focado em transformar ideias em
+              aplicações web rápidas, acessíveis e fáceis de usar.
+              Trabalho com HTML, CSS, JavaScript e React no front-end, além de
+              Node.js, TypeScript e bancos de dados no back-end. Como freelancer,
+              entrego soluções sob demanda com código limpo e atenção à qualidade.
             </p>
             <p>
-              <br />
               Sou formado em Sistemas de Informação pela Universidade Federal Rural do Semi-Árido.
             </p>
             <p>
-              <br /> Tenho disposição e disciplina, sou proativo e colaborativo,
-              sei me comunicar bem, e busco me aprimorar cada vez mais.
+              Tenho disciplina, sou proativo e colaborativo, comunico-me bem e busco me aprimorar constantemente.
             </p>
             <div className="about-experience">
               <div className="years-projects-1">
                 <div className="amount-projects">
-                  <p> 11</p>
+                  <p> 37</p>
                   <div>
                     <p className="edition">+</p>
                   </div>
@@ -42,7 +39,7 @@ class About extends React.Component {
               </div>
               <div className="years-projects-2">
                 <div className="amount-projects">
-                  <p>1</p>
+                  <p>3</p>
                   <div>
                     <p className="edition">+</p>
                   </div>
